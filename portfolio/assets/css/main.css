@@ -1,0 +1,27 @@
+.portfolio-container {
+    width: 100%;
+    max-width: 1263px;
+    margin: 0 auto;
+    display: block;
+}
+.portfolio-box {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid grey;
+    padding: 20px;
+}
+.portfolio-box h1 {
+    font-size: 36px;
+    line-height: 42px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.portfolio-category {
+    display: flex;
+}
